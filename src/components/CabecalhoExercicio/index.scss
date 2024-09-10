@@ -1,0 +1,52 @@
+.CabecalhoExercicio {
+    h1 {
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+
+    .seta {
+        margin-left: 65px;
+        display: flex;
+        position: absolute;
+    }
+
+    .linha1 {
+        margin: 20px auto;
+        width: 91%;
+        height: 4px;
+        border-radius: 12px;
+    }
+
+    .meio {
+        background-color: rgb(240, 241, 241);
+        width: 91%; 
+        margin: 0 auto; 
+        padding-top: 90px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 90px;
+        border-radius: 10px;
+        background-color: #ffffff;
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            text-align: center;
+            color: #383131;
+        }
+    }
+}
+
+/* Classes de cor definidas fora */
+.amarelo { background-color: #FFCE37; }
+.verdeClaro { background-color: #B3FF37; }
+.azulBebe { background-color: #37FFF3; }
+.azulMarinho { background-color: #37B7FF; }
+.roxoClaro { background-color: #CB37FF; }
+.laranjaEscuro { background-color: #FF5B37; }
+.verdeBebe { background-color: #37FFAB; }
+.preto { background-color: #151515; }
+.cinza { background-color: #D0D0D0; }
+.marromClaro { background-color: #B75333; }
+.roxoEscuro { background-color: #6533B7; }

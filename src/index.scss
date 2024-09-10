@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  text-decoration-line: none;
+}
+
+
+
+a, a:visited, a:link {
+  color: inherit;
+}
+
+.pagina {
+  background-color: #fff;
+  min-height: 100vh;
+
+  .cabecalho {
+    background-color: #4760d1;
+    padding: 20px 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .ir-app {
+      margin-left: 75%;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      margin-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+      align-items: flex-start;
+      
+      .ir-app, ul {
+        margin-left: 0;
+        margin-top: 15px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      padding: 10px;
+
+      h1 {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .secao {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px 15px 2px #e9e9e9;
+    border-radius: 8px;
+    margin: 50px;
+    max-width: 1000px;
+    font-size: 24px;
+
+    h1 {
+      color: #404040;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    input, select {
+      border-radius: 3px;
+      border: 2px solid #dfdfdf;
+      padding: 10px;
+      color: #606060;
+      font-size: 22px;
+      text-decoration: none;
+      min-width: 100%;
+      max-width: 400px;
+    }
+
+    button {
+      background-color: #0084FF;
+      padding: 14px 30px;
+      color: #fff;
+      border-radius: 3px;
+      font-size: 20px;
+      outline: none;
+      border: none;
+    }
+
+    @media (max-width: 768px) {
+      padding: 20px;
+      margin: 20px;
+
+      input, select {
+        min-width: 100%;
+        font-size: 18px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      button {
+        font-size: 18px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      padding: 15px;
+
+      h1 {
+        font-size: 20px;
+      }
+
+      input, select {
+        font-size: 16px;
+      }
+
+      button {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.todosEx {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 50px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.ex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    padding: 15px;
+  }
+}
